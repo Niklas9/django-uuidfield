@@ -20,6 +20,7 @@ if not settings.configured:
         ],
         ROOT_URLCONF='',
         DEBUG=False,
+        MIDDLEWARE_CLASSES=tuple(),
     )
 
 from django_nose import NoseTestSuiteRunner
